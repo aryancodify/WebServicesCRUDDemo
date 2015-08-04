@@ -12,7 +12,7 @@ public enum TodoDao {
 	private TodoDao() {
 		Todo todo=new Todo("1", "Learn REST", "Read http://www.vogella.com/tutorials/REST/article.html");
 		contentProvider.put("1", todo);
-		todo=new Todo("2", "Do something", "Read complete http://www.vogella.com");
+		todo=new Todo("2", "Do something", "Read complete   http://www.vogella.com");
 		contentProvider.put("2", todo);
 	}
 	
